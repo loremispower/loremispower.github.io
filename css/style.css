@@ -248,10 +248,15 @@ input[type="text"]{
 .point-list li{
 	line-height: 34px;
 }
-button{
-	
+.request-button:hover{
+	box-shadow: inset 0px 0px 15px rgba(0,0,0,0.5);
+	transition: all 0.5s ease-in-out;
 }
-button:hover{
-	opacity: 0.8;
+.watch-button:hover{
+	transform: rotate(360deg);
+	transition: all 0.5s ease-in-out;
+}
+.form-button:hover{
+	transform: scale(1.1);
 	transition: all 0.5s ease-in-out;
 }
