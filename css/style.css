@@ -157,7 +157,7 @@ input[type="text"]{
 	width:80%;
 	border: 1px solid #cacaca;
 	border-radius: 10px;
-	padding: 13px 0px 8px 15px;
+	padding: 13px 15px 8px 15px;
 	margin-bottom: 11px;
 	color: #cacaca;
 	outline: none;
@@ -247,4 +247,11 @@ input[type="text"]{
 }
 .point-list li{
 	line-height: 34px;
+}
+button{
+	
+}
+button:hover{
+	opacity: 0.8;
+	transition: all 0.5s ease-in-out;
 }
